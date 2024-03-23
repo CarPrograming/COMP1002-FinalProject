@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonka Chocolate</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/ContactUs.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Img/header_logo_reg.png" alt="Wonka Chocolate Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Wonka">Wonka</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+       <div class="myContainer">
+            <section class="about">
+                <h2>Contact us</h2>
+                <div class="MycontactUs">
+                <h3>Welcome to the Sweet World of Willy Wonka!</h3> 
+
+                    <p>Are you curious about our candy inventions? Want to learn more about the most marvelous factory tour in the world?
+                         Or perhaps you have a brilliant idea to share with Mr. Willy Wonka himself? You're in the right place!</p>
+
+                    <p>Fill out the magical form, and one of our Oompa-Loompas will get in touch with you as soon as they finish tasting the latest batch of Exploding Candies.</p>
+                </div> 
+            </section>
+
+        <!-- Form Section -->
+        
+        <section class="myContainerForm">
+            
+            
+                <form action="/submit_form" method="post" class="form">
+                    <h3>Wonka Chocolate Factory Form</h3>
+                    <fieldset>
+                        
+                        <div class="names">
+                            <div class="name-field">
+                                <label for="name">First Name:</label><br>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="name-field">
+                                <label for="lastname">Last Name:</label><br>
+                                <input type="text" id="lastname" name="lastname" required>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="Foremail">
+                            <label for="email">Email:</label><br>
+                            <input type="text" id="email" name="email" required><br>
+                        </div>
+                    </fieldset>
+                
+                    
+                
+                    <fieldset id="details">
+                        
+                            <label for="visitReason">Reason for Visit:</label><br>
+                            <textarea id="visitReason" name="visitReason"  required></textarea><br>
+                    </fieldset>
+                    <div class="botton">
+                                <input type="submit" value="Submit" id="submit">
+                    </div>
+                </form> 
+            </div>
+           
+        
+         </section>
+
+      </div> 
+    </main>
+    <footer>
+        <p>© 2024 Wonka Chocolate. All rights reserved.</p>
+    
