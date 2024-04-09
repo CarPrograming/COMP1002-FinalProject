@@ -1,0 +1,97 @@
+#about h3{
+    font-family: Fredericka the Great;
+    font-size: 2.0em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: #c7a6cd;
+    text-align: center;
+    text-shadow: 1px 1px 2px #291548;
+    
+
+}
+
+.myContainer{
+    display: flex; /* making my container a flex container */
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    flex: 1 1 200px;
+    font-size: 1.5em;
+    font-family: Fredericka the Great;
+    text-shadow: 1px 1px 2px #291548;
+}
+.imageH{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 38vh; 
+    overflow: hidden;
+    justify-content: center;
+}
+
+/*Creating a flex container, were the container in it will have an equal space in middle, and flex items will be center, it will 
+adapt the items in the container depending on the size of the screen*/
+.AboutUs {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    
+    
+}
+
+/* Adjust both containers side to side,by setting the size depending on the AboutUs container and how small or big they will be
+depending on the screen size */
+.imageH, .infoCompany {
+    flex: 1 1 48%; 
+    
+
+}
+
+.infoCompany{
+
+    background-color: #5c4174; 
+    border: 2px solid #d3d3d3; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 
+                -5px -5px 10px rgba(255, 255, 255, 0.5);
+    
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.myContainer .AboutUs img{
+    
+        max-width: 100%;
+        max-height: 100%;
+        display: block; 
+        object-fit: contain; 
+        border-radius: 25%;
+        
+
+}
+
+.AboutUs img {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    
+  }
+  
+  .myContainer .AboutUs img:hover {
+    transform: scale(1.05); 
+    opacity: 0.8;
+}
+
+  .AboutUs .infoCompany:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .imageH {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
