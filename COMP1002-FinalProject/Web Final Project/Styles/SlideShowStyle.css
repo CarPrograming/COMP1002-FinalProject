@@ -25,7 +25,7 @@ float: left;
 #SliderHome container*/
 width: 20%;
 /*height of our image*/
-max-height: 500px;
+max-height: 450px;
 
 }
 
@@ -87,7 +87,8 @@ move to the left. the 100% of 12s and same fot each value*/
     left: -400%;
 }
 
-}
+
+
 
 
 }
@@ -130,4 +131,3 @@ p {margin-top:5%;
     font-size: 1.5em;
     font-family: Fredericka the Great;
     text-shadow: 1px 1px 2px #291548;}
-
