@@ -88,3 +88,46 @@ move to the left. the 100% of 12s and same fot each value*/
 }
 
 }
+
+
+}
+.letters, .text{
+    flex: 1 1 45%; 
+    
+}
+video {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+#about {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    
+    
+    }
+
+.text{
+margin:10px;
+
+
+
+}
+
+h2 {margin-top:5%;
+    margin-left:75px;
+    margin-right:25px;
+
+
+}
+p {margin-top:5%;
+    margin-left:75px;
+    margin-right:25px;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: Fredericka the Great;
+    text-shadow: 1px 1px 2px #291548;}
+
