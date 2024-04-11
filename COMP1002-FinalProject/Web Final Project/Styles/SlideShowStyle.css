@@ -93,41 +93,47 @@ move to the left. the 100% of 12s and same fot each value*/
 
 }
 .letters, .text{
-    flex: 1 1 45%; 
+    
+    flex: 1 1 45%; /*dividing two flex container and both will have a 45% of the container*/
     
 }
 video {
-    max-width: 80%;
-    display: block;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 80%;/*the video will have a 80% of the width in the parent container*/
+    display: block;/*make the video in a block, it will take the maximum width of the container, 
+    in this case 80% and then start a new line*/
+    margin: 20px auto;/*give margin of 20px to the top and bottom*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);/*give a light shadow to the video*/
 
 }
 #about {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
+    display: flex;/*make the container a flex container*/
+    flex-direction: row; /*set the items horizontally in a row*/
+    flex-wrap: wrap;/*when the line cannont contain the the content 
+    it move it to the next line*/
     
     
     }
 
 .text{
-margin:10px;
+margin:10px;/*give margin of 10px to the container, top and bottom*/
 
 
 
 }
 
-h2 {margin-top:5%;
+h2 {/*give margin to the top left and right of 5pixels*/
+    margin-top:5%;
     margin-left:75px;
     margin-right:25px;
 
 
 }
-p {margin-top:5%;
+p {/*give margin to the top left and right of 5pixels,75px and 25px*/
+    margin-top:5%;
     margin-left:75px;
     margin-right:25px;
-    text-align: left;
-    font-size: 1.5em;
-    font-family: Fredericka the Great;
-    text-shadow: 1px 1px 2px #291548;}
+    
+    text-align: left;/*move the text to the left*/
+    font-size: 1.5em;/*size of the text that adpt to the container size*/
+    font-family: Fredericka the Great;/*type of font on the text*/
+    text-shadow: 1px 1px 2px #291548;}/*give shadow to the font*/
