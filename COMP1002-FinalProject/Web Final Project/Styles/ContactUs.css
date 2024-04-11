@@ -1,0 +1,150 @@
+
+/*make ke font thicker and teh size will adapt to the flex container, adding shadows and a purple font color, and text will be center */
+.about h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: #c7a6cd;
+    text-align: center;
+}
+/*size of the font for a paragrahp ans will adapt to the flex container*/
+.about p{
+    font-size: 2em;
+
+
+}
+
+.myContainer{
+    display: flex; /* making my container a flex container */
+    flex-direction: row; /*aling it horizontaly in a row*/
+    flex-wrap: wrap; /*in case the items doent fit it move it to the next line*/
+    flex: 1 1 200px;/*how the flex item will grow and shrink depending on the other items and the initial size 200px*/
+    /*size of the font, type of font and small shadows on the font*/
+    justify-content: space-between;/*adding equal space betwen items*/
+    font-family: Fredericka the Great;/*type of font*/
+    text-shadow: 1px 1px 2px #291548;/*adding shadow to the font*/
+}
+
+.MycontactUs{
+/*width of the container in the parent container in this case aboutr*/
+    width: 80%;
+
+
+}
+
+.about{
+    display: flex;/* making my container a flex container */
+    align-items: center;/*center the flex items*/
+    flex-direction: column;/*show them in colunm*/
+}
+
+ h3{
+     /*font size and center the text*/
+font-size: 1.5em;
+text-align: center;
+
+
+}
+
+.MycontactUs h3{
+    /*font size and center the text*/
+    font-size: 2.0em;
+    text-align: center;
+    
+    
+    }
+.about, .myContainerForm{
+    /*each flex container have 48% of the parent container and will shrink and grow.*/
+    flex: 1 1 48%; 
+    
+
+}
+.myContainerForm{
+display: flex;/* making my container a flex container */
+flex-direction: column; /*show them in colunm*/
+align-items: center;/*center the flex items*/
+}
+
+
+.form{
+    display: flex;  /* making my container a flex container */
+    flex-direction: column; /*show them in colunm*/
+    width: 70%;/*container will have a 70% of the width in the parent flex container in this case myContainerForm*/
+    
+    font-size: 1.3em;/*size of the font*/
+    
+    
+    padding: 15px;/*adding spaces to all sides*/
+    margin-right: 15px;/*add margin to the left*/
+    
+}
+
+.names{
+display: flex;/* making my container a flex container */
+flex-direction: row; /*aling it horizontaly in a row*/
+flex-wrap: wrap; /*in case the items doent fit it move it to the next line*/
+justify-content: space-between;/*adding equal space betwen items*/
+align-items: center;/*center the flex items*/
+margin-left: 5%;/*add margin to the left*/
+margin-right: 5%;/*add margin to the right*/
+}
+
+#Foremail{
+
+margin-left: 5%;/*add margin to the left*/
+margin-right: 5%;/*add margin to the right*/
+}
+
+#Foremail input[type="text"]{
+    /*wight and borders of the input text in the parent container foremail*/
+    border: 1px solid rgb(255, 255, 255);
+    width:  97%;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+/*wight and borders of the input text in the parent container names*/
+.names input[type="text"] {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 7px;
+    max-width:  100%;
+    border-radius: 5px;
+}
+
+#visitReason{
+    /*side of the input text for visit reason, and round borders*/
+    width: 95%; 
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+   
+}
+
+fieldset {
+    border: none;
+}
+
+#details{
+
+/*aling text to the center*/
+    text-align: center;
+}
+
+#submit{
+/*color of the boton, padding to give space to the area and cover it with color, border 4px wight of 25% of the container  */
+    background-color: #291548; 
+    color: white; 
+    padding: 12px 24px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 4px;
+    width: 25%;
+    
+}
+
+.form .botton{
+/*make bottom flex container and center it*/
+display: flex;
+
+justify-content: center;
+}

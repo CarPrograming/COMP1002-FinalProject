@@ -1,0 +1,106 @@
+/* Styles for the heading inside the 'about' section */
+#about h2 {
+    font-size: 2em; /* Set the font size to 2em (equivalent to 32px) */
+    font-weight: bold; /* Set the font weight to bold */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Add a text shadow for a 3D effect */
+    color: #c7a6cd; /* Set the text color to a light purple */
+    text-align: center; /* Center-align the text */
+}
+
+/* Styles for paragraphs inside the 'about' section */
+#about p {
+    font-size: 2em; /* Set the font size to 2em (equivalent to 32px) */
+    font-family: 'Fredericka the Great'; /* Use the 'Fredericka the Great' font for the text */
+}
+
+/* Styles for the logos section */
+#logos {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+    margin-top: 100px; /* Add margin space on the top */
+    width: 100%; /* Set the width to 100% */
+    font-size: 1.2em; /* Set the font size to 1.2em (equivalent to 19.2px) */
+}
+
+/* Styles for images inside the logos section */
+.logo-imgs img {
+    width: 300px; /* Set the width of the images */
+    height: 150px; /* Set the height of the images */
+    margin-bottom: 10px; /* Add margin space below the images */
+}
+
+/* Styles for the logo images */
+.logo-imgs {
+    font-size: 2em; /* Set the font size to 2em (equivalent to 32px) */
+    text-align: center; /* Center-align the text */
+    flex: 1; /* Allow the element to grow and shrink */
+    margin-bottom: 10%; /* Add margin space below the element */
+    background-color: #5c4174; /* Set the background color to a purple shade */
+    border: 2px solid white; /* Add a white border around the element */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.5); /* Add a box shadow for a 3D effect */
+    border-radius: 100px; /* Set the border radius to make the element round */
+    padding: 100px; /* Add padding inside the element */
+    margin-right: 60px; /* Add margin space on the right */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover styles for the logo images */
+.logo-imgs:hover {
+    transform: scale(1.1); /* Scale the element to 110% on hover */
+}
+
+/* Styles for the golden ticket section */
+#golden-ticket {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center-align items vertically */
+    margin-top: 10px; /* Add margin space on the top */
+}
+
+/* Styles for the golden ticket element */
+.golden-ticket {
+    height: 300px; /* Set the height of the element */
+    width: 600px; /* Set the width of the element */
+    align-items: center; /* Center-align items vertically */
+    border-radius: 10px; /* Set the border radius to make the element round */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.5); /* Add a box shadow for a 3D effect */
+    background-color: #5c4174; /* Set the background color to a purple shade */
+    border: 2px solid white; /* Add a white border around the element */
+    padding: 60px; /* Add padding inside the element */
+    margin-right: 60px; /* Add margin space on the right */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover styles for the golden ticket element */
+.golden-ticket:hover {
+    transform: scale(1.1); /* Scale the element to 110% on hover */
+}
+
+/* Styles for the description section */
+.description {
+    width: 40%; /* Set the width of the element to 40% */
+}
+
+/* Styles for heading inside the description section */
+.description h3 {
+    font-family: 'Fredericka the Great'; /* Use the 'Fredericka the Great' font for the text */
+    font-size: 2em; /* Set the font size to 2em (equivalent to 32px) */
+    margin-bottom: 10px; /* Add margin space below the heading */
+    text-align: center; /* Center-align the text */
+}
+
+/* Styles for paragraphs inside the description section */
+.description p {
+    font-size: 2em; /* Set the font size to 2em (equivalent to 32px) */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #291548; /* Set the background color to a dark purple shade */
+    color: #fff; /* Set the text color to white */
+    text-align: center; /* Center-align the text */
+    padding: 10px; /* Add padding inside the element */
+    width: 100%; /* Set the width to 100% */
+    flex-shrink:0;
+}
